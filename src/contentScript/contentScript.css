@@ -1,0 +1,71 @@
+/* @import url('../../node_modules/monday-ui-style/src/index.scss'); */
+
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities';
+
+.toast-container {
+  max-width: 1200px;
+  z-index: 9999;
+  padding: 2rem 2rem 2.25rem 2rem;
+}
+
+/* Header */
+.toast-header {
+  max-width: 75%;
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+}
+
+.toast-header h1 {
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+.toast-header p {
+  font-size: 1rem;
+  margin-top: 0.25rem;
+  word-break: break-all;
+  white-space: initial;
+}
+
+.icon_8347275ec5 {
+  margin-top: -4px;
+  margin-bottom: auto;
+}
+
+.icon_8347275ec5 svg {
+  height: 30px !important;
+  width: 30px !important;
+}
+
+.actionButton_f7805b721e {
+  font-size: 1.25rem !important;
+  padding: 0.75rem 1.25rem;
+  height: auto !important;
+}
+
+/* Breadcrumbs */
+.breadcrumbContent_52dba39a97 {
+  font-size: 1rem !important;
+  color: #fff !important;
+  padding: 0.2rem 0.35rem !important;
+  border-radius: 0.25rem !important;
+}
+
+.breadcrumbContent_52dba39a97:hover {
+  background-color: rgba(0, 0, 0, 0.2) !important;
+}
+
+.separatorIcon_9427f21d9a {
+  color: #fff !important;
+}
+
+/* Floating button */
+.floating-button {
+  position: fixed;
+  bottom: 14px;
+  right: 14px;
+  z-index: 9999;
+}
